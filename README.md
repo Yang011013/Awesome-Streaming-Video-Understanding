@@ -1,6 +1,6 @@
 # Awesome Streaming Video Understanding [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of research papers, benchmarks, and resources on **Streaming Video Understanding**.  
+A curated list of research papers, benchmarks, and resources on **Streaming/Online Video Understanding**.  
 
 In offline video understanding, the system first obtains the entire video (all frames, all timestamps) before doing any analysis or answering questions. Because it has full access to the complete content, it can revisit, rewind, or look ahead arbitrarily, and exploit global context or future cues to reason about events. In contrast, online/streaming video understanding must work in real time: video frames arrive sequentially, and the model’s inference is **causal** — at time *t*, it can only base decisions on frames up to *t* (never on future frames). The model cannot freely rewind or peek ahead, and must make incremental updates as new data arrives. 
 
@@ -15,6 +15,7 @@ In offline video understanding, the system first obtains the entire video (all f
 | [CogStream: Context-guided Streaming Video Question Answering](http://arxiv.org/abs/2506.10516) | CogStream       | 06/2025 | [GitHub](https://github.com/LiamZhao326/CogStream)           | arXiv        |
 | [Proactive Assistant Dialogue Generation from Streaming Egocentric Videos](http://arxiv.org/abs/2506.05904) | IPS             | 06/2025 | [GitHub](https://github.com/pro-assist/ProAssist)            | arXiv        |
 | [Flash-VStream: Efficient Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2506.23825) | Flash-VStream   | 06/2025 | [GitHub](https://github.com/IVGSZ/Flash-VStream)             | ICCV 2025    |
+| [LiveVLM: Efficient Online Video Understanding via Streaming-Oriented KV Cache and Retrieval](https://arxiv.org/pdf/2505.15269) | LiveVLM         | 05/2025 | —                                                            | arXiv        |
 | [Learning Streaming Video Representation via Multitask Training](http://arxiv.org/abs/2504.20041) | Streamformer    | 04/2025 | [Project Page](https://go2heart.github.io/streamformer)      | ICCV 2025    |
 | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | LiveCC          | 04/2025 | [Project Page](https://showlab.github.io/livecc/)            | CVPR 2025    |
 | [ViSpeak: Visual Instruction Feedback in Streaming Videos](http://arxiv.org/abs/2503.12769) | ViSpeak         | 03/2025 | [GitHub](https://github.com/HumanMLLM/ViSpeak)               | ICCV 2025    |
