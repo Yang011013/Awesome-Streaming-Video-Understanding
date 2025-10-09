@@ -34,6 +34,7 @@ In offline video understanding, the system first obtains the entire video (all f
 
 | Name               | Paper                                                        | Date    | Link                                                         | Venue     |
 | ------------------ | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | --------- |
+| ProactiveVideoQA   | [ProactiveVideoQA: A Comprehensive Benchmark Evaluating Proactive Interactions in Video Large Language Models](https://arxiv.org/abs/2507.09313v2) | 07/2025 | [Link](https://github.com/yellow-binary-tree/ProactiveVideoQA?tab=readme-ov-file) | arXiv     |
 | PROASSIST          | [Proactive Assistant Dialogue Generation from Streaming Egocentric Videos](http://arxiv.org/abs/2506.05904) | 06/2025 | [Link]((https://github.com/pro-assist/ProAssist))            | arXiv     |
 | Live-WhisperX-526K | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | 04/2025 | [Link](https://huggingface.co/datasets/chenjoya/Live-WhisperX-526K) | CVPR 2025 |
 | Live-CC-5M         | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | 04/2025 | [Link](https://huggingface.co/datasets/chenjoya/Live-CC-5M)  | CVPR 2025 |
