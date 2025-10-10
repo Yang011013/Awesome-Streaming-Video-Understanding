@@ -10,6 +10,7 @@ In offline video understanding, the system first obtains the entire video (all f
 
 | Title                                                        | Model           | Date    | Code                                                         | Venue        |
 | ------------------------------------------------------------ | --------------- | ------- | ------------------------------------------------------------ | ------------ |
+| [StreamForest: Efficient Online Video Understanding with Persistent Event Memory](https://arxiv.org/pdf/2509.24871) | StreamForest    | 09/2025 | [GitHub](https://github.com/MCG-NJU/StreamForest)            | NeurIPS 2025 |
 | [StreamMem: Query-Agnostic KV Cache Memory for Streaming Video Understanding](http://arxiv.org/abs/2508.15717) | StreamMem       | 08/2025 | [Project Page](https://yangyanl.ai/streammem/)               | arXiv        |
 | [StreamAgent: Towards Anticipatory Agents for Streaming Video Understanding](http://arxiv.org/abs/2508.01875) | StreamAgent     | 08/2025 | —                                                            | arXiv        |
 | [CogStream: Context-guided Streaming Video Question Answering](http://arxiv.org/abs/2506.10516) | CogStream       | 06/2025 | [GitHub](https://github.com/LiamZhao326/CogStream)           | arXiv        |
@@ -32,17 +33,19 @@ In offline video understanding, the system first obtains the entire video (all f
 
 ## Datasets, Benchmarks
 
-| Name               | Paper                                                        | Date    | Link                                                         | Venue     |
-| ------------------ | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | --------- |
-| ProactiveVideoQA   | [ProactiveVideoQA: A Comprehensive Benchmark Evaluating Proactive Interactions in Video Large Language Models](https://arxiv.org/abs/2507.09313v2) | 07/2025 | [Link](https://github.com/yellow-binary-tree/ProactiveVideoQA?tab=readme-ov-file) | arXiv     |
-| PROASSIST          | [Proactive Assistant Dialogue Generation from Streaming Egocentric Videos](http://arxiv.org/abs/2506.05904) | 06/2025 | [Link](https://github.com/pro-assist/ProAssist)              | arXiv     |
-| Live-WhisperX-526K | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | 04/2025 | [Link](https://huggingface.co/datasets/chenjoya/Live-WhisperX-526K) | CVPR 2025 |
-| Live-CC-5M         | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | 04/2025 | [Link](https://huggingface.co/datasets/chenjoya/Live-CC-5M)  | CVPR 2025 |
-| OmniMMI            | [OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts](https://arxiv.org/abs/2503.22952) | 03/2025 | [Link](https://omnimmi.github.io/)                           | CVPR 2025 |
-| SVBench            | [SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding](https://arxiv.org/abs/2502.10810) | 02/2025 | [Link](https://yzy-bupt.github.io/SVBench/)                  | ICLR 2025 |
-| StreamBench        | [Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge](http://arxiv.org/abs/2501.13468) | 01/2025 | [Link](https://github.com/hmxiong/StreamChat)                | ICLR 2025 |
-| OVO-Bench          | [OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?](https://arxiv.org/abs/2501.05510) | 01/2025 | [Link](https://github.com/JoeLeelyf/OVO-Bench)               | CVPR 2025 |
-| MMDuetIT           | [VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction](http://arxiv.org/abs/2411.17991) | 11/2024 | [Link](https://github.com/yellow-binary-tree/MMDuet)         | arXiv     |
+| Name               | Paper                                                        | Date    | Link                                                         | Venue        |
+| ------------------ | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------ |
+| ODV-Bench          | [StreamForest: Efficient Online Video Understanding with Persistent Event Memory](https://arxiv.org/pdf/2509.24871) | 09/2025 | [Link](https://huggingface.co/datasets/MCG-NJU/ODV-Bench)    | NeurIPS 2025 |
+| OST-Bench          | [OST-Bench: Evaluating the Capabilities of MLLMs in Online Spatio-temporal Scene Understanding](https://arxiv.org/pdf/2507.07984) | 07/2025 | [Link](https://rbler1234.github.io/OSTBench.github.io/)      | NeurIPS 2025 |
+| ProactiveVideoQA   | [ProactiveVideoQA: A Comprehensive Benchmark Evaluating Proactive Interactions in Video Large Language Models](https://arxiv.org/abs/2507.09313v2) | 07/2025 | [Link](https://github.com/yellow-binary-tree/ProactiveVideoQA?tab=readme-ov-file) | arXiv        |
+| PROASSIST          | [Proactive Assistant Dialogue Generation from Streaming Egocentric Videos](http://arxiv.org/abs/2506.05904) | 06/2025 | [Link](https://github.com/pro-assist/ProAssist)              | arXiv        |
+| Live-WhisperX-526K | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | 04/2025 | [Link](https://huggingface.co/datasets/chenjoya/Live-WhisperX-526K) | CVPR 2025    |
+| Live-CC-5M         | [LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale](http://arxiv.org/abs/2504.16030) | 04/2025 | [Link](https://huggingface.co/datasets/chenjoya/Live-CC-5M)  | CVPR 2025    |
+| OmniMMI            | [OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts](https://arxiv.org/abs/2503.22952) | 03/2025 | [Link](https://omnimmi.github.io/)                           | CVPR 2025    |
+| SVBench            | [SVBench: A Benchmark with Temporal Multi-Turn Dialogues for Streaming Video Understanding](https://arxiv.org/abs/2502.10810) | 02/2025 | [Link](https://yzy-bupt.github.io/SVBench/)                  | ICLR 2025    |
+| StreamBench        | [Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge](http://arxiv.org/abs/2501.13468) | 01/2025 | [Link](https://github.com/hmxiong/StreamChat)                | ICLR 2025    |
+| OVO-Bench          | [OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?](https://arxiv.org/abs/2501.05510) | 01/2025 | [Link](https://github.com/JoeLeelyf/OVO-Bench)               | CVPR 2025    |
+| MMDuetIT           | [VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction](http://arxiv.org/abs/2411.17991) | 11/2024 | [Link](https://github.com/yellow-binary-tree/MMDuet)         | arXiv        |
 
 
 
