@@ -10,6 +10,7 @@ In offline video understanding, the system first obtains the entire video (all f
 
 | Title                                                        | Model           | Date    | Code                                                         | Venue        |
 | ------------------------------------------------------------ | --------------- | ------- | ------------------------------------------------------------ | ------------ |
+| [StreamingVLM: Real-Time Understanding for Infinite Video Streams](https://arxiv.org/abs/2510.09608) | StreamingVLM    | 10/2025 | [GitHub](https://github.com/mit-han-lab/streaming-vlm?tab=readme-ov-file) | arXiv        |
 | [StreamForest: Efficient Online Video Understanding with Persistent Event Memory](https://arxiv.org/pdf/2509.24871) | StreamForest    | 09/2025 | [GitHub](https://github.com/MCG-NJU/StreamForest)            | NeurIPS 2025 |
 | [StreamMem: Query-Agnostic KV Cache Memory for Streaming Video Understanding](http://arxiv.org/abs/2508.15717) | StreamMem       | 08/2025 | [Project Page](https://yangyanl.ai/streammem/)               | arXiv        |
 | [StreamAgent: Towards Anticipatory Agents for Streaming Video Understanding](http://arxiv.org/abs/2508.01875) | StreamAgent     | 08/2025 | —                                                            | arXiv        |
